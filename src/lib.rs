@@ -1,6 +1,6 @@
 use std::collections::BTreeMap;
 
-use ds_test_network::Application;
+use ds_libs::Application;
 
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub enum Command<Key, Value> {
