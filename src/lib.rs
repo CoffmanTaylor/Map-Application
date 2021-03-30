@@ -41,6 +41,15 @@ where
     }
 }
 
+impl<Key, Value> Default for MapApplication<Key, Value>
+where
+    Key: Ord,
+{
+    fn default() -> Self {
+        MapApplication::new()
+    }
+}
+
 impl<Key, Value> Application for MapApplication<Key, Value>
 where
     Key: Ord + Clone,
