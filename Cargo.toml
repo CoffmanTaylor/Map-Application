@@ -9,4 +9,4 @@ repository = "https://github.com/CoffmanTaylor/Map-Application.git"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ds-libs = {git = "ssh://git@github.com/CoffmanTaylor/DS-libs.git", branch = "main"}
+ds-libs = {git = "https://github.com/CoffmanTaylor/DS-libs.git", tag = "v0.1.0"}
