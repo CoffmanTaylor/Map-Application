@@ -7,4 +7,4 @@ It currently allows for three operations:
 - Store(`key`, `value`)
 - Clear(`key`)
 
-The next version should also support an non-idempotent update command. Useful for testing. But the current version does not have it and I'm not allowed to add it until im done writing the READMEs.
+The next version should also support a non-idempotent update command. Useful for testing. But the current version does not have it and I'm not allowed to add it until im done writing the READMEs.
